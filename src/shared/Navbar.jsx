@@ -18,13 +18,13 @@ const Navbar = () => {
   
   const navitem = (
     <>
-      <li className="font-bold md:text-white hover:underline">
+      <li className="font-bold text-black hover:underline">
         <Link to="/">Home</Link>
       </li>
-      <li className="font-bold md:text-white hover:underline">
+      <li className="font-bold text-black hover:underline">
         <Link to="/products">Product</Link>
       </li>
-      <li className="font-bold md:text-white hover:underline">
+      <li className="font-bold text-black hover:underline">
         <Link to="/">Features</Link>
       </li>
       <div className="dropdown dropdown-hover">
@@ -42,7 +42,7 @@ const Navbar = () => {
   const [openModal, setOpenModal] = useState(false);
   return (
     <div>
-      <div className="navbar bg-black top-0">
+      <div className="navbar bg-gray-300 top-0">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -87,13 +87,13 @@ const Navbar = () => {
         {
       user ?
         <>
-          <button onClick={handleLogout} className="btn btn-active btn-ghost text-white font-semibold font-serif">Logout</button>
+          <button onClick={handleLogout} className="btn btn-active btn-ghost font-semibold font-serif">Logout</button>
           <img className='h-10 rounded-full md:mr-8' title={user.displayName} src={user?.photoURL} alt="" />
         </> :
         <>
 
           
-<Link to ="/login" className="text-white font-semibold md:mr-8 font-serif"> Login 
+<Link to ="/login" className=" font-semibold md:mr-8 font-serif"> Login 
           </Link> 
         </>
     }

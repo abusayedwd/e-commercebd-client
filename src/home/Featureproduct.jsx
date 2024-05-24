@@ -14,7 +14,7 @@ const Featureproduct = () => {
   
    return (
       <div className='my-8'>
-<h1 className='text-3xl underline ml-6 text-slate-400 font-thin font-smebold   my-4'>Features Product</h1>
+<h1 className='text-3xl underline ml-16 text-slate-400 font-thin font-smebold   my-4'>Features Product</h1>
            <div  className='grid md:grid-cols-4'>
            {
             products.slice(1,9).map( (product, index) => (
