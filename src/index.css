@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.cade{
+       transition: transform 0.3s ease-in;
+       transition-duration: 0.4s;
+}
+.cade:hover{
+        transform: rotate(5deg);
+         transition: 2;
+         animation: 5px;
+        
+}
+/* card hover animation */
+.cardbody{
+       position: relative;
+       overflow: hidden;
+       border-radius: 20px;
+       transition: all 1s;
+    }
+    .offer{
+       position: absolute;
+       top:  0;
+       left: -100%; 
+    }
+    .cardbody:hover .offer{
+       left: 10px;
+       transition: 1s;
+       
+        
+    }
+    .cardbody:hover{ 
+       transition: 1s;
+       transform: scale(1.1);
+        
+    }
+     

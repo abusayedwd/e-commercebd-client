@@ -1,0 +1,144 @@
+
+[
+   {
+     "name": "Smartphone X",
+     "image": "https://tse1.mm.bing.net/th?id=OIP.JCTsXcj9bUIoYyNktjgXZwHaHa&pid=Api&P=0&h=220",
+     "description": "A powerful smartphone with advanced features.",
+     "price": 599.99,
+     "availability": true,
+     "average_ratings": 4.5,
+     "specification": {
+       "screen_size": "6.5 inches",
+       "processor": "Octa-core",
+       "RAM": "8GB",
+       "storage": "128GB"
+     }
+   },
+   {
+     "name": "Laptop Y",
+     "image": "https://tse2.mm.bing.net/th?id=OIP.UMg6uiHdpndudR6Q5LDMYwHaEL&pid=Api&P=0&h=220",
+     "description": "A lightweight and sleek laptop for professionals.",
+     "price": 1099.99,
+     "availability": false,
+     "average_ratings": 4.2,
+     "specification": {
+       "screen_size": "14 inches",
+       "processor": "Intel Core i7",
+       "RAM": "16GB",
+       "storage": "512GB SSD"
+     }
+   },
+   {
+     "name": " Headphones Z",
+     "image": "https://i5.walmartimages.com/asr/41e14822-1e5d-4f7f-9bda-3bc5f264d4a8.695e8ae876b53efaebf555e6b7488ae6.jpeg",
+     "description": "High-quality wireless headphones for immersive sound experience.",
+     "price": 149.99,
+     "availability": true,
+     "average_ratings": 4.8,
+     "specification": {
+       "type": "Over-ear",
+       "battery_life": "Up to 30 hours",
+       "connectivity": "Bluetooth 5.0",
+       "color": "Black"
+     }
+   },
+   {
+     "name": "Smartwatch",
+     "image": "https://www.styleskier.com/wp-content/uploads/2017/08/the-eltham-gold-mechanical-open-face-pocket-watch-iesherx-.jpg",
+     "description": "A stylish and feature-rich smartwatch for fitness enthusiasts.",
+     "price": 199.99,
+     "availability": true,
+     "average_ratings": 4.6,
+     "specification": {
+       "display_type": "AMOLED",
+       "water_resistance": "Up to 50 meters",
+       "battery_life": "Up to 7 days",
+       "sensors": ["Heart rate", "GPS", "Accelerometer"]
+     }
+   },
+   {
+     "name": "Gaming Console",
+     "image": "https://images.unsplash.com/photo-1593118247619-e2d6f056869e?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+     "description": "Next-gen gaming console for immersive gaming experience.",
+     "price": 499.99,
+     "availability": false,
+     "average_ratings": 4.9,
+     "specification": {
+       "resolution": "4K UHD",
+       "storage_capacity": "1TB SSD",
+       "controller": "Wireless DualShock 5",
+       "games_included": ["Spider-Man: Miles Morales", "Demon's Souls"]
+     }
+   },
+   {
+     "name": "Camera C",
+     "image": "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80",
+     "description": "Professional-grade DSLR camera for stunning photography.",
+     "price": 1299.99,
+     "availability": true,
+     "average_ratings": 4.7,
+     "specification": {
+       "megapixels": "24.2MP",
+       "sensor_size": "Full-frame",
+       "ISO_range": "100-25600",
+       "video_resolution": "4K"
+     }
+   },
+   {
+     "name": " Tracker D",
+     "image": "https://images.unsplash.com/photo-1510017803434-a899398421b3?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+     "description": "Track your fitness goals with this sleek and lightweight tracker.",
+     "price": 79.99,
+     "availability": true,
+     "average_ratings": 4.4,
+     "specification": {
+       "tracking_features": ["Steps", "Calories", "Heart rate"],
+       "waterproof": true,
+       "battery_life": "Up to 10 days",
+       "display_type": "OLED"
+     }
+   },
+   {
+     "name": "Speaker E",
+     "image": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+     "description": "Portable wireless speaker for crystal-clear audio.",
+     "price": 99.99,
+     "availability": true,
+     "average_ratings": 4.3,
+     "specification": {
+       "output_power": "20W",
+       "connectivity": "Bluetooth 4.2",
+       "battery_life": "Up to 15 hours",
+       "color": "Blue"
+     }
+   },
+   {
+     "name": "Tablet F",
+     "image": "https://images.unsplash.com/photo-1623126908029-58cb08a2b272?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+     "description": "Versatile tablet for work and entertainment.",
+     "price": 399.99,
+     "availability": false,
+     "average_ratings": 4.0,
+     "specification": {
+       "screen_size": "10.5 inches",
+       "processor": "Octa-core",
+       "RAM": "6GB",
+       "storage": "256GB"
+     }
+   },
+   {
+     "name": "Drone G",
+     "image": "https://images.unsplash.com/photo-1456615913800-c33540eac399?q=80&w=1769&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+     "description": "Capture breathtaking aerial footage with this advanced drone.",
+     "price": 799.99,
+     "availability": true,
+     "average_ratings": 4.8,
+     "specification": {
+       "camera_resolution": "4K",
+       "flight_time": "Up to 30 minutes",
+       "max_speed": "45 mph",
+       "range": "1 mile"
+     }
+   }
+ ]
+ 
