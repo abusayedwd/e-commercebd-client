@@ -22,10 +22,10 @@ const Navbar = () => {
         <Link to="/">Home</Link>
       </li>
       <li className="font-bold md:text-white hover:underline">
-        <Link to="/feature">Product</Link>
+        <Link to="/products">Product</Link>
       </li>
       <li className="font-bold md:text-white hover:underline">
-        <Link to="/feature">Features</Link>
+        <Link to="/">Features</Link>
       </li>
       <div className="dropdown dropdown-hover">
   <div className="font-bold text-white flex md:mt-2 items-center justify-center">Category <IoIosArrowDown /></div>

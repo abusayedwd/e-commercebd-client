@@ -20,14 +20,14 @@
        border-radius: 20px;
        transition: all 1s;
     }
-    .offer{
+    .button{
        position: absolute;
-       top:  0;
-       left: -100%; 
+       bottom: -100%;
+       right: 10px; 
     }
-    .cardbody:hover .offer{
-       left: 10px;
-       transition: 1s;
+    .cardbody:hover .button{
+       bottom: 10px;
+       transition: 0.5s;
        
         
     }

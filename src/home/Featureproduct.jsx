@@ -5,16 +5,16 @@ import '@smastrom/react-rating/style.css'
 const Featureproduct = () => {
   const [products, setProduct] = useState([])
  useEffect( () => {
-         fetch("/data.json")
+         fetch("http://localhost:5000/products")
          .then(res => res.json())
          .then(data => setProduct(data))
-         console.log(products)
+        //  console.log(products)
   } ,[]);
 
   
    return (
       <div className='my-8'>
-<h1 className='text-2xl text-center'>product list {products.length}</h1>
+<h1 className='text-3xl underline ml-6 text-slate-400 font-thin font-smebold   my-4'>Features Product</h1>
            <div  className='grid md:grid-cols-4'>
            {
             products.slice(1,9).map( (product, index) => (
