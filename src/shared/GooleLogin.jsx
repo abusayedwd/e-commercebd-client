@@ -13,10 +13,10 @@ const  GoogleLogin = () => {
       
 
         const Logingoogle = () => {
-                googleSignIn()
+         googleSignIn()
                 .then( (result) => {
                 const logged = result.user;
-                console.log(result)  
+                console.log(logged)  
                    navigate("/")
                })
                .catch(error => console.log(error))

@@ -46,7 +46,7 @@ const SignUp = () => {
           <div className="hero min-h-screen bg-base-200">
             <div className="md:flex">
               <div className="text-center">
-                <img className="h-full md:w-[750px]" src="https://www.shutterstock.com/image-vector/new-user-online-registration-sign-260nw-1982734163.jpg" alt="" />
+                <img className="h-full md:w-[750px]" src="https://static.vecteezy.com/system/resources/previews/005/879/539/non_2x/cloud-computing-modern-flat-concept-for-web-banner-design-man-enters-password-and-login-to-access-cloud-storage-for-uploading-and-processing-files-illustration-with-isolated-people-scene-free-vector.jpg" alt="" />
               </div>
               <div className="card w-full shadow-2xl bg-base-100">
                 <form onSubmit={handleSubmit(onSubmit)} className="card-body">
