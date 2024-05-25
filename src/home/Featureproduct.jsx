@@ -8,7 +8,7 @@ const Featureproduct = () => {
   const [products, setProduct] = useState([])
   const [search, setSearch] = useState('')
  useEffect( () => {
-         fetch(`http://localhost:5000/products?search=${search}`)
+         fetch(`https://e-commercebd-server.vercel.app/products?search=${search}`)
          .then(res => res.json())
          .then(data => setProduct(data))
         //  console.log(products)
@@ -33,6 +33,7 @@ const Featureproduct = () => {
     <button onClick={handleSearch} className="btn btn-secondary join-item">Search</button>
   </div>
   </div> 
+  <small className=' ml-16 font-semibold'>this product dynamicly sort by low price</small>
            <div  className='grid md:grid-cols-4'>
            {
             products.slice(1,9).map( (product, index) => (
