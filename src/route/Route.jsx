@@ -32,7 +32,7 @@ import Errorelement from "../shared/Errorelement";
          {
             path:'details/:id',
             element: <DetailsProduct></DetailsProduct>,
-            loader:({params}) => fetch(`http://localhost:5000/productlist/${params.id}`)
+            loader:({params}) => fetch(`https://e-commercebd-server.vercel.app/productlist/${params.id}`)
     },
           
       ]
