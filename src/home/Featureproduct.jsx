@@ -71,7 +71,7 @@ const Featureproduct = () => {
          )
            }
            </div>
-           <Link className=' ml-10' to ='/products'>
+           <Link className=' ml-16' to ='/products'>
 
            <button className='btn btn-secondary'>
             show more <FaArrowRight />

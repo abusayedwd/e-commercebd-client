@@ -5,11 +5,13 @@ import Login from "../shared/Login";
 import SignUp from "../shared/SignUp"; 
 import Products from "../home/Products";
 import DetailsProduct from "../home/DetailsProduct";
+import Errorelement from "../shared/Errorelement";
 
  export const router = createBrowserRouter([
     {
       path:"/",
       element: <Main></Main>,
+      errorElement:<Errorelement></Errorelement>,
       children: [
          {
             path:'/',

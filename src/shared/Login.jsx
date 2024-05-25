@@ -3,6 +3,7 @@ import { Link, Navigate, useNavigate } from 'react-router-dom';
 import { loadCaptchaEnginge, LoadCanvasTemplate, LoadCanvasTemplateNoReload, validateCaptcha } from 'react-simple-captcha';
 import Swal from 'sweetalert2';
 import { AuthContext } from '../contextApi/AuthProvider';
+import GoogleLogin from './GooleLogin';
 
 
 const Login = () => {
@@ -98,9 +99,11 @@ const Login = () => {
              </div>
 
               {/* button type will be submit for handling form submission*/}
-               <input disabled = {disabled} className="btn btn-info w-[40%] mx-auto mt-4" type="submit" value="submit" />
+               <input disabled = {disabled} className="btn btn-info w-[40%] mx-auto mt-4" type="submit" value="Ligin" />
+
 
                <p>New users? <Link to="/signup" className='text-blue-400'>signup please</Link></p>
+               <GoogleLogin></GoogleLogin>
             </form>
         </div>
       </div>
