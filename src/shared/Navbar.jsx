@@ -42,7 +42,7 @@ const Navbar = () => {
   const [openModal, setOpenModal] = useState(false);
   return (
     <div>
-      <div className="navbar bg-gray-300 top-0">
+      <div className="navbar bg-gray-300 shadow-4xl top-0">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
