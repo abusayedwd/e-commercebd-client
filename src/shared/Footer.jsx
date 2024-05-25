@@ -9,6 +9,10 @@ const Footer = () => {
                 <aside className="text-xl">
                     <img className=' h-16 w-16 rounded-full' src="https://images.unsplash.com/photo-1619454016518-697bc231e7cb?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
                     <p>ShoppingHUB</p>
+                    <div className="join">
+  <input className="input input-bordered text-slate-500 join-item" type='email' placeholder="Email"/>
+  <button className="btn join-item rounded-r-full">Subscribe</button>
+</div>
                 </aside>
                 <nav className="text-lg">
                     <ul className="space-y-3">
