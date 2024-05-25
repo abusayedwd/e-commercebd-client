@@ -8,6 +8,7 @@ import Reviews from "./Reviews";
 
 const DetailsProduct = () => {
   const details = useLoaderData();
+
   const [category, setCategory] = useState("");
   console.log(details);
   const {
@@ -38,7 +39,7 @@ const reviewSubmit = (event) => {
    }
    console.log(reviews)
     
-   fetch('http://localhost:5000/reviews', {
+   fetch('https://e-commercebd-server.vercel.app/reviews', {
       method: 'POST',
       headers: {
          'content-type':'application/json'
