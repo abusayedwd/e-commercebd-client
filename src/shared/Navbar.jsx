@@ -70,7 +70,7 @@ const Navbar = () => {
           </div>
           <img
             className="md:h-10 h-6 rounded-full"
-            src="https://i.pinimg.com/736x/b5/ac/f3/b5acf3f7ce620af31da71fdb221020e9.jpg"
+            src="https://images.unsplash.com/photo-1619454016518-697bc231e7cb?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt=""
           />
           <Link

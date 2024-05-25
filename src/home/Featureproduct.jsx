@@ -1,20 +1,38 @@
 import { Rating } from '@smastrom/react-rating';
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import '@smastrom/react-rating/style.css'
+import { Link } from 'react-router-dom';
+import { FaArrowRight } from 'react-icons/fa';
 
 const Featureproduct = () => {
   const [products, setProduct] = useState([])
+  const [search, setSearch] = useState('')
  useEffect( () => {
-         fetch("http://localhost:5000/products")
+         fetch(`http://localhost:5000/products?search=${search}`)
          .then(res => res.json())
          .then(data => setProduct(data))
         //  console.log(products)
-  } ,[]);
+  } ,[search]);
+
+  const searchRef = useRef(null)
+
+  const handleSearch = () => {
+    setSearch(searchRef.current.value)
+    // console.log(searchRef.current.value)
+  }
 
   
    return (
       <div className='my-8'>
 <h1 className='text-3xl underline ml-16 text-slate-400 font-thin font-smebold   my-4'>Features Product</h1>
+<div className='flex ml-16'>
+    <div>
+      <input className="input bg-slate-200 join-item" ref={searchRef} placeholder="Search your product"/>
+    </div>
+  <div className="indicator">
+    <button onClick={handleSearch} className="btn btn-secondary join-item">Search</button>
+  </div>
+  </div> 
            <div  className='grid md:grid-cols-4'>
            {
             products.slice(1,9).map( (product, index) => (
@@ -52,6 +70,12 @@ const Featureproduct = () => {
          )
            }
            </div>
+           <Link className=' ml-10' to ='/products'>
+
+           <button className='btn btn-secondary'>
+            show more <FaArrowRight />
+           </button>
+           </Link>
       </div>
    );
 };

@@ -30,7 +30,7 @@ import DetailsProduct from "../home/DetailsProduct";
          {
             path:'details/:id',
             element: <DetailsProduct></DetailsProduct>,
-            loader:({params}) => fetch(`http://localhost:5000/products/${params.id}`)
+            loader:({params}) => fetch(`https://e-commercebd-server.vercel.app/productlist/${params.id}`)
     },
           
       ]

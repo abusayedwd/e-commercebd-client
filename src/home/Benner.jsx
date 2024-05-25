@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import { motion } from "framer-motion";
 
 import { fadein } from "../hooks/fadein";
@@ -44,9 +44,12 @@ const Benner = () => {
 
     return () => clearInterval(timer); // Clean up the timer when the component unmounts
   }, [backgroundImages.length]);
+ 
+  
+
 
   return (
-    <div className="grid md:grid-cols-2 gap-3 h-[750px] md:h-[600px] md:py-12 bg-[#C1DCDC]">
+    <div className="grid md:grid-cols-2 gap-3 h-[750px] md:h-[550px] md:py-12 bg-[#C1DCDC]">
       <div className="md:mt-8 md:ml-16 px-6">
         <motion.div
           variants={fadein("right", 0.8)}
@@ -94,14 +97,7 @@ const Benner = () => {
         whileInView={"show"}
         viewport={{ once: false, amount: 0.7 }}
         >
-  <div>
-    <div>
-      <input className="input join-item" placeholder="Search your product"/>
-    </div>
-  </div> 
-  <div className="indicator">
-    <button className="btn join-item">Search</button>
-  </div>
+   
 </motion.div>
 
       </div>
